@@ -13,8 +13,8 @@ fun makeDecorations() {
     val decoration3 = Decoration("slate", "wood", "diver")
     println(decoration3)
 
-    println (decoration1.equals(decoration2))
-    println (decoration3.equals(decoration2))
+    println(decoration1 == decoration2)
+    println(decoration3 == decoration2)
 
     // Assign all properties to variables.
     val (rock, wood, diver) = decoration3
